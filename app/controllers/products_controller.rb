@@ -4,6 +4,7 @@ class ProductsController < ApplicationController
   # GET /products
   def index
     @products = Product.all
+    @message = "Yayyyyyyyyyyyy!"
   end
 
   # GET /products/1
